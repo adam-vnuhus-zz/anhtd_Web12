@@ -1,0 +1,24 @@
+p {
+    color: rgb(138, 43, 226);
+}
+
+ul li {
+    color: #00ff0d;
+}
+
+a:hover {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+    text-align: right;
+}
+
+nav span {
+    color: #402E2A;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #D5B0AC;
+}
