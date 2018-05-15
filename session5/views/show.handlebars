@@ -1,0 +1,13 @@
+{{#if question}}
+<h1>Content: {{question.questionContent}}</h1>
+<p>Yes: {{question.yes}}</p>
+<p>No: {{question.no}}</p>
+<form action='/api/question/{{question.id}}/vote?type=yes' method="POST">
+    <button>Yes</button>
+</form>
+<form action='/api/question/{{question.id}}/vote?type=no' method="POST">
+    <button>No</button>
+</form>
+{{else}}
+<div>Không thấy question</div>
+{{/if}}

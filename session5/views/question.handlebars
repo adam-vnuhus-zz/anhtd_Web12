@@ -1,0 +1,13 @@
+{{!--
+<div>{{question.questionContent}}</div>
+<div>totalVote: {{question.totalVote}}</div>
+<div>Yes: {{question.yes}}</div>
+<div>No: {{question.no}}</div> --}} 
+{{#if question}}
+<h1>Content: {{question.questionContent}}</h1>
+<p>Vote: {{totalVote}}</p>
+<p>Yes: {{question.yes}}</p>
+<p>No: {{question.no}}</p>
+{{else}}
+<div>Không thấy question</div>
+{{/if}}
