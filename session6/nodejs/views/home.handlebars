@@ -1,0 +1,15 @@
+{{#if question}}
+<h1>{{question.questionContent}}</h1>
+
+<a href="/question/{{question.id}}/no"><button>Sai / Không / Trái</button></a>
+<a href="/question/{{question.id}}/yes"><button>Đúng / Có / Phải</button></a>
+{{else}}
+
+<h1>Question list is empty!</h1>
+
+{{/if}}
+
+{{!-- <form action="/question/{{question.id}}" method="POST">
+    <input type="submit" name="vote" value="Đúng / Có / Phải">
+    <input type="submit" name="vote" value="Sai / Không / Trái">
+</form> --}}
